@@ -354,7 +354,8 @@ class EsmeTransceiver(Protocol):
 
     def disconnect(self):
         """
-        Attempt gracefull disconnect
+        Attempt gracefull disconnect,
+        escalate to forceConnectionFailure if required
         """
         pass
 
